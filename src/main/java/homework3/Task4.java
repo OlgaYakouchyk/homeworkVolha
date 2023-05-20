@@ -22,7 +22,7 @@ public class Task4 {
     }
     public static int calculeteDiferenceCalories (double areaOfPizza1, double areaOfPizza2, int caloriesSquareCentimeter){
         double diferenceAreaOfPizza = areaOfPizza1 - areaOfPizza2;
-        int diferenceCalories = (int) (caloriesSquareCentimeter * diferenceAreaOfPizza);
-        return diferenceCalories;
+        int Calories = (int) (caloriesSquareCentimeter * diferenceAreaOfPizza);
+        return Calories;
     }
 }

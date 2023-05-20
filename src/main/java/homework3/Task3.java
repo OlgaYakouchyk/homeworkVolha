@@ -8,9 +8,11 @@ public class Task3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter you amount in euro: ");
         double euroAmount = scanner.nextDouble();
-        double exchangeRate = 1.2;
+        double exchangeRate = 0.92;
 
-        System.out.println("You amount in USD is: " + convertEuroToUSD(euroAmount,exchangeRate));
+       System.out.println("You amount in USD is: " + convertEuroToUSD(euroAmount,exchangeRate));
+
+
     }
 
     public static double convertEuroToUSD (double euroAmount, double exchangeRate){
