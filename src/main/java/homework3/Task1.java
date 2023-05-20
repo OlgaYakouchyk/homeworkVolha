@@ -22,8 +22,8 @@ public class Task1 {
         String firstHafWorld = world1.substring(0, hafWorld);
         String secondHafWorld = world2.substring(hafWord2);
 
-        System.out.println(firstHafWorld);
-        System.out.println(secondHafWorld);
+        System.out.println(firstHafWorld+secondHafWorld);
+
 
         scanner.close();
 
