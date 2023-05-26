@@ -5,6 +5,7 @@ public class task1 {
 
         boolean isWeekend = true;
         boolean isRain = false;
+        //я нашла два варианта
         /*boolean canWalk;
         if (isWeekend != isRain){
             System.out.println("you can walk");

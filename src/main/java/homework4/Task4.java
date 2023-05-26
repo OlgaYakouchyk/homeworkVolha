@@ -1,8 +1,6 @@
 package homework4;
 
-import javax.swing.text.DateFormatter;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
+
 import java.util.Random;
 
 public class Task4 {
