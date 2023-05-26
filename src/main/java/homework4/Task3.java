@@ -6,7 +6,7 @@ public class Task3 {
         int temperature1;
         int temperature2;
 
-        boolean checkDiv = checkDevice(101, 50);
+        boolean checkDiv = checkDevice(104, 50);
         System.out.println("Device is working well - " + checkDiv);
 
 
