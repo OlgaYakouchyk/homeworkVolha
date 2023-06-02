@@ -7,9 +7,7 @@ public class Task4 {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int min = 0;
-        int max = 28800;
-        int n = random.nextInt(max - min + 1);
+        int n = random.nextInt(28801);
 
         System.out.println("Do konca raboty octaloc: " + n + " sec");
 

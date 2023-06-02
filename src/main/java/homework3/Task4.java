@@ -10,7 +10,7 @@ public class Task4 {
         double pizzaArea1 = calculeteAreaPizza(diameter1);
         double pizzaArea2 = calculeteAreaPizza(diameter2);
 
-        int differentCalories = calculeteDiferenceCalories(pizzaArea1, pizzaArea2, caloriesSquareCentimeter);
+        int differentCalories = (int) calculeteDiferenceCalories(pizzaArea1, pizzaArea2, caloriesSquareCentimeter);
         System.out.println("If you will buy a pizza diameter 28 instead 24 you get more  " + differentCalories + " calories");
 
     }
@@ -20,7 +20,7 @@ public class Task4 {
         return areaOfPizza;
 
     }
-    public static int calculeteDiferenceCalories (double areaOfPizza1, double areaOfPizza2, int caloriesSquareCentimeter){
+    public static double calculeteDiferenceCalories (double areaOfPizza1, double areaOfPizza2, int caloriesSquareCentimeter){
         double diferenceAreaOfPizza = areaOfPizza1 - areaOfPizza2;
         int Calories = (int) (caloriesSquareCentimeter * diferenceAreaOfPizza);
         return Calories;
