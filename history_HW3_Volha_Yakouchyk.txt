@@ -1,0 +1,14 @@
+   0 pwd
+   1 date > file.txt
+   2 cat file.txt 
+   3 df / >> file.txt 
+   4 cat file.txt 
+   5 history | tail -n5 >> file.txt 
+   6 cat file.txt 
+   7 grep "vendor" /proc/cpuinfo | cut -d ":" -f 2 | sed 's/^[ \t]*//' >> file.txt 
+   8 cat file.txt 
+   9 sed -i '1,/^$/!d' file.txt 
+  10 cat file.txt 
+  11 ps -ef | wc -l >> file.txt 
+  12  cat file.txt 
+  13 history > /tmp/history.txt
