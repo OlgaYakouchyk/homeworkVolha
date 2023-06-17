@@ -1,0 +1,11 @@
+your_name="VOLHA"
+
+echo "your name is: $your_name"
+
+echo "your working directory is: $PWD"
+
+process_count=$(pgrep -c sshd)
+echo "Number of users: $process_count"
+
+echo "done"
+
